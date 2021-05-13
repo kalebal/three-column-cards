@@ -1,11 +1,6 @@
 import cardData from './cardText.js';
 
-var container = document.getElementById('card-container');
-let cards = container.childNodes;
-
 for (let i = 0; i < cardData.length; i++) {
-  console.log(cardData[i]);
-  // cards[i].append('hello');
   let title = document.createElement('h1');
   title.append(cardData[i].title);
   let text = document.createElement('p');
