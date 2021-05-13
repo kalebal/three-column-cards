@@ -115,4 +115,12 @@ p {
     padding: 0.5rem 1rem;
     font-size: 80%;
   }
+
+  #sedans {
+    border-radius: 5px 5px 0 0;
+  }
+
+  #luxury {
+    border-radius: 0 0 5px 5px;
+  }
 }

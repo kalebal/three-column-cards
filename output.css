@@ -85,4 +85,8 @@ p {
     height: max-content;
     background-color: rgba(255, 255, 255, 0.75);
     padding: 0.5rem 1rem;
-    font-size: 80%; } }
+    font-size: 80%; }
+  #sedans {
+    border-radius: 5px 5px 0 0; }
+  #luxury {
+    border-radius: 0 0 5px 5px; } }
